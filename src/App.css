@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: #c4d1d6;
+  overflow: auto;
+  height: 100%;
+}
+.menu{
+  padding: 3px;
+  background-color: ghostwhite;
+  margin-right: 5px;
+  outline: none;
+  margin-left: 5px;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,0.45);
+  border-radius: 15px;
+  box-shadow: 0px 1px 4px 0px #434c4e;
+
+
+}
+.address{
+  font-family: auto;
+  text-decoration-line: underline;
+  text-decoration-color: lightblue;
+  font-style: italic;
+}
+.menu:hover{
+  box-shadow: 1px 1px 5px 0px #5755b9;
+}
+.menu:focus{
+  border: none;
+  box-shadow: 1px 1px 5px 0px #5755b9;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  width:100%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.certificate{
+  width: 30%;
+  text-align: center;
+  box-shadow: 0px 1px 4px 0px #434c4e;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  background: white;
+  
+}
+#root{
+  position: relative;
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+html{
+  height: 100%;
+}
+.certificate div {
+  font-family: cursive;
+  padding-bottom : 10px;
+}
+.certificate div{
+  font-family: cursive;
+  padding : 10px;
+}
+.certificate span input {
+  margin-left: 5px;
+  border-radius: 20px
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
+.loading{
+  border: 3px solid #ffffff; /* Light grey */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  border-top: 3px solid #000000; /* Blue */
+  padding: 10px;
+  margin-top: 20px;
+}
+.pinInput{
+  border: none;
+  box-shadow: 1px 1px 5px 0px black;
+  border-radius: 20px;
+  padding: 6px;
+  outline: none;
+  margin-bottom: 20px;
+  width: 190px;
+}
+.loginButton{
+  width: 140px;
+  position: absolute;
+  right: 10px;
+  top: -35px;
+  background: #ffc002;
+  color: black;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
