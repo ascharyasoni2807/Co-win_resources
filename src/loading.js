@@ -1,6 +1,6 @@
 function loading () {
     return <>
-    <div>
+    <div style = {{display:"flex",justifyContent:"center"}}>
         <div className = "loading">
 
         </div>

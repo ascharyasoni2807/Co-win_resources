@@ -8,14 +8,13 @@
   height: 100%;
 }
 .menu{
-  padding: 3px;
+  padding: 4px;
   background-color: ghostwhite;
   margin-right: 5px;
-  outline: none;
   margin-left: 5px;
   border: none;
   border-bottom: 2px solid rgba(0,0,0,0.45);
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0px 1px 4px 0px #434c4e;
 
 
@@ -39,18 +38,19 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 600px) {
+  .loginCard {
+    width: 20px;
   }
 }
-
 .App-header {
   background-color: #282c34;
   width:100%;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
+
 .App-link {
   color: #61dafb;
 }
@@ -64,13 +64,12 @@
   }
 }
 .certificate{
-  width: 30%;
-  text-align: center;
   box-shadow: 0px 1px 4px 0px #434c4e;
   border-radius: 20px;
   padding: 20px;
   margin-top: 30px;
   background: white;
+  
   
 }
 #root{
@@ -115,15 +114,15 @@ input::-webkit-inner-spin-button {
   box-shadow: 1px 1px 5px 0px black;
   border-radius: 20px;
   padding: 6px;
-  outline: none;
   margin-bottom: 20px;
   width: 190px;
 }
 .loginButton{
-  width: 140px;
-  position: absolute;
-  right: 10px;
-  top: -35px;
+  width: 20%;
+  margin-left: 80%;
+  margin-bottom: 1px;
+  max-height: 22%;
+  overflow: hidden;
   background: #ffc002;
   color: black;
   font-weight: 600;
@@ -135,4 +134,43 @@ input::-webkit-inner-spin-button {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+.loginCard{
+  width: 350px;
+  height: 250px;
+  background: white;
+  margin-top: 76px;
+  box-shadow: 0px 1px 5px;
+}
+.LoginInput{
+  width: 85%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.getOtp{
+  padding: 6px;
+  width: 89%;
+  margin-top: 20px;
+  border: none;
+  background: #282c34;
+  color: white;
+}
+.bigCircle{
+  position: absolute;
+  background: white;
+  width: 100px;
+  height: 100px;
+  top: 166px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px;
+  display: flex;
+  justify-content: center;
+}
+.smallCircle{
+  width: 75px;
+  height: 75px;
+  background: #c4d1d6;
+  border-radius: 50%;
+  margin-top: 13%;
 }
