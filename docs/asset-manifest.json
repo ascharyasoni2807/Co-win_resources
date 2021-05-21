@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Co-win-App/static/css/main.7afb5734.chunk.css",
-    "main.js": "/Co-win-App/static/js/main.c4593494.chunk.js",
-    "main.js.map": "/Co-win-App/static/js/main.c4593494.chunk.js.map",
-    "runtime-main.js": "/Co-win-App/static/js/runtime-main.c7b4d229.js",
-    "runtime-main.js.map": "/Co-win-App/static/js/runtime-main.c7b4d229.js.map",
-    "static/js/2.e8fef3c3.chunk.js": "/Co-win-App/static/js/2.e8fef3c3.chunk.js",
-    "static/js/2.e8fef3c3.chunk.js.map": "/Co-win-App/static/js/2.e8fef3c3.chunk.js.map",
-    "static/js/3.52ef0b34.chunk.js": "/Co-win-App/static/js/3.52ef0b34.chunk.js",
-    "static/js/3.52ef0b34.chunk.js.map": "/Co-win-App/static/js/3.52ef0b34.chunk.js.map",
+    "main.css": "/Co-win-App/static/css/main.13485201.chunk.css",
+    "main.js": "/Co-win-App/static/js/main.48fe5811.chunk.js",
+    "main.js.map": "/Co-win-App/static/js/main.48fe5811.chunk.js.map",
+    "runtime-main.js": "/Co-win-App/static/js/runtime-main.c9074862.js",
+    "runtime-main.js.map": "/Co-win-App/static/js/runtime-main.c9074862.js.map",
+    "static/js/2.14d1f14b.chunk.js": "/Co-win-App/static/js/2.14d1f14b.chunk.js",
+    "static/js/2.14d1f14b.chunk.js.map": "/Co-win-App/static/js/2.14d1f14b.chunk.js.map",
+    "static/js/3.8b4a4348.chunk.js": "/Co-win-App/static/js/3.8b4a4348.chunk.js",
+    "static/js/3.8b4a4348.chunk.js.map": "/Co-win-App/static/js/3.8b4a4348.chunk.js.map",
     "index.html": "/Co-win-App/index.html",
-    "static/css/main.7afb5734.chunk.css.map": "/Co-win-App/static/css/main.7afb5734.chunk.css.map",
-    "static/js/2.e8fef3c3.chunk.js.LICENSE.txt": "/Co-win-App/static/js/2.e8fef3c3.chunk.js.LICENSE.txt",
+    "static/css/main.13485201.chunk.css.map": "/Co-win-App/static/css/main.13485201.chunk.css.map",
+    "static/js/2.14d1f14b.chunk.js.LICENSE.txt": "/Co-win-App/static/js/2.14d1f14b.chunk.js.LICENSE.txt",
     "static/media/—Pngtree—vector heart beat icon_3989757.5179586a.png": "/Co-win-App/static/media/—Pngtree—vector heart beat icon_3989757.5179586a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7b4d229.js",
-    "static/js/2.e8fef3c3.chunk.js",
-    "static/css/main.7afb5734.chunk.css",
-    "static/js/main.c4593494.chunk.js"
+    "static/js/runtime-main.c9074862.js",
+    "static/js/2.14d1f14b.chunk.js",
+    "static/css/main.13485201.chunk.css",
+    "static/js/main.48fe5811.chunk.js"
   ]
 }

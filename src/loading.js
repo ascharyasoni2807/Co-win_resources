@@ -1,8 +1,7 @@
-function loading () {
+function loading (props) {
     return <>
-    <div style = {{display:"flex",justifyContent:"center"}}>
-        <div className = "loading">
-
+    <div className = "loginContain" style= {props.style}>
+        <div className = "loading" style ={props.newStyle}>
         </div>
     </div>
     </>

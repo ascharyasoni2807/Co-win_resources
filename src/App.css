@@ -48,6 +48,7 @@
   width:100%;
   font-size: calc(10px + 2vmin);
   color: white;
+  min-height: 132px;
   
 }
 
@@ -67,9 +68,10 @@
   box-shadow: 0px 1px 4px 0px #434c4e;
   border-radius: 20px;
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 108px;
   background: white;
-  
+  width: 30%;
+  height: 30%;
   
 }
 #root{
@@ -90,9 +92,23 @@ html{
   font-family: cursive;
   padding : 10px;
 }
-.certificate span input {
-  margin-left: 5px;
-  border-radius: 20px
+@media only screen and (max-width: 600px) {
+.certificate{
+  box-shadow: 0px 1px 4px 0px #434c4e;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 108px;
+  background: white;
+  width: 250px;
+  height: 200px;
+}
+}
+.certificate  input {
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #c4d1d6;
+  padding: 10px;
+  margin-bottom: 7px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -121,7 +137,7 @@ input::-webkit-inner-spin-button {
   width: 20%;
   margin-left: 80%;
   margin-bottom: 1px;
-  max-height: 22%;
+  max-height: 18%;
   overflow: hidden;
   background: #ffc002;
   color: black;
@@ -156,16 +172,32 @@ input::-webkit-inner-spin-button {
   background: #282c34;
   color: white;
 }
+
+.getOtp:hover{
+  background: #353d4e;
+  
+}
 .bigCircle{
   position: absolute;
   background: white;
   width: 100px;
   height: 100px;
-  top: 166px;
+  top: 160px;
   border-radius: 50%;
   box-shadow: 0px 1px 4px;
   display: flex;
   justify-content: center;
+}
+.downloadButton{
+      background: #282c34;
+      color: white;
+      border: none;
+      padding: 7px;
+      width: 90%;
+      border-radius: 8px;
+}
+.downloadButton:hover{
+  background: #353d4e
 }
 .smallCircle{
   width: 75px;
@@ -173,4 +205,8 @@ input::-webkit-inner-spin-button {
   background: #c4d1d6;
   border-radius: 50%;
   margin-top: 13%;
+}
+.loginContain{
+  display:flex;
+  justify-content:center;
 }

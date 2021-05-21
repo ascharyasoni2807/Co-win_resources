@@ -1,5 +1,4 @@
 import Dropdown from "./Dropdown"
-import  Certificate from "./Certificate"
 import Loading from "./loading"
 import  Centervac from "./Centervac"
 
@@ -13,6 +12,7 @@ function Homepage(){
   const [loading,setLoading] = useState(false)
   const [centersByPin,setPin] = useState([])
   const [centerPin,setCenterPin] = useState("")
+  
   useEffect(()=>{
     fetch("https://cdn-api.co-vin.in/api/v2/admin/location/states")
       .then(res => res.json())
@@ -76,14 +76,8 @@ function Homepage(){
   
     setLoading(bool)
   }
-  const dowloadPdf = (id)=>{
-      fetch("https://cdn-api.co-vin.in/api/v2/registration/certificate/public/download?beneficiary_reference_id="+id)
-      .then(res =>res.headers)
-      .then(data=>{
-          if(data===null) alert("not")
-      })
-      
-  }
+  
+  
   const renderCenters =()=>{
     if(loading){
       return <Loading/>
@@ -135,10 +129,6 @@ function Homepage(){
     
     {renderCenters()}
     
-  </div>
-  <div style={{display:"flex",justifyContent:"center"}}>
-
-  <Certificate Download = {dowloadPdf}/>   
   </div>
   </div>
   </>
