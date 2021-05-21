@@ -2,7 +2,7 @@
   "name": "cowin-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hemant8094.github.io/Co-win-App",
+  "homepage": "https://ascharyasoni2807.github.io/Co-win_resources",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ./docs/* && mv ./build/* ./docs && rm -rf ./build",
+    "build": "react-scripts build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

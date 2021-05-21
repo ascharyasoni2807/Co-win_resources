@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Co-win-App/static/css/main.13485201.chunk.css",
-    "main.js": "/Co-win-App/static/js/main.48fe5811.chunk.js",
-    "main.js.map": "/Co-win-App/static/js/main.48fe5811.chunk.js.map",
-    "runtime-main.js": "/Co-win-App/static/js/runtime-main.c9074862.js",
-    "runtime-main.js.map": "/Co-win-App/static/js/runtime-main.c9074862.js.map",
-    "static/js/2.14d1f14b.chunk.js": "/Co-win-App/static/js/2.14d1f14b.chunk.js",
-    "static/js/2.14d1f14b.chunk.js.map": "/Co-win-App/static/js/2.14d1f14b.chunk.js.map",
-    "static/js/3.8b4a4348.chunk.js": "/Co-win-App/static/js/3.8b4a4348.chunk.js",
-    "static/js/3.8b4a4348.chunk.js.map": "/Co-win-App/static/js/3.8b4a4348.chunk.js.map",
-    "index.html": "/Co-win-App/index.html",
-    "static/css/main.13485201.chunk.css.map": "/Co-win-App/static/css/main.13485201.chunk.css.map",
-    "static/js/2.14d1f14b.chunk.js.LICENSE.txt": "/Co-win-App/static/js/2.14d1f14b.chunk.js.LICENSE.txt",
-    "static/media/—Pngtree—vector heart beat icon_3989757.5179586a.png": "/Co-win-App/static/media/—Pngtree—vector heart beat icon_3989757.5179586a.png"
+    "main.css": "/Co-win_resources/static/css/main.1523e3c3.chunk.css",
+    "main.js": "/Co-win_resources/static/js/main.58012abd.chunk.js",
+    "main.js.map": "/Co-win_resources/static/js/main.58012abd.chunk.js.map",
+    "runtime-main.js": "/Co-win_resources/static/js/runtime-main.2f5dac1a.js",
+    "runtime-main.js.map": "/Co-win_resources/static/js/runtime-main.2f5dac1a.js.map",
+    "static/js/2.138b4d0b.chunk.js": "/Co-win_resources/static/js/2.138b4d0b.chunk.js",
+    "static/js/2.138b4d0b.chunk.js.map": "/Co-win_resources/static/js/2.138b4d0b.chunk.js.map",
+    "static/js/3.4336f5f0.chunk.js": "/Co-win_resources/static/js/3.4336f5f0.chunk.js",
+    "static/js/3.4336f5f0.chunk.js.map": "/Co-win_resources/static/js/3.4336f5f0.chunk.js.map",
+    "index.html": "/Co-win_resources/index.html",
+    "static/css/main.1523e3c3.chunk.css.map": "/Co-win_resources/static/css/main.1523e3c3.chunk.css.map",
+    "static/js/2.138b4d0b.chunk.js.LICENSE.txt": "/Co-win_resources/static/js/2.138b4d0b.chunk.js.LICENSE.txt",
+    "static/media/—Pngtree—vector heart beat icon_3989757.5179586a.png": "/Co-win_resources/static/media/—Pngtree—vector heart beat icon_3989757.5179586a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c9074862.js",
-    "static/js/2.14d1f14b.chunk.js",
-    "static/css/main.13485201.chunk.css",
-    "static/js/main.48fe5811.chunk.js"
+    "static/js/runtime-main.2f5dac1a.js",
+    "static/js/2.138b4d0b.chunk.js",
+    "static/css/main.1523e3c3.chunk.css",
+    "static/js/main.58012abd.chunk.js"
   ]
 }
