@@ -65,12 +65,12 @@ function Login (){
 
 
     return<>
-      <div className ="bigCircle">
+    {!token.hasOwnProperty("token")? <div className = "loginCard">
+    <div className ="bigCircle">
         <div className ="smallCircle">
             <img style = {{width: "80px",height: "80px"}} alt = "heart" src = {Heart}/>
         </div>
     </div>
-    {!token.hasOwnProperty("token")? <div className = "loginCard">
         <div style = {{marginTop: "85px"}}>
             <h4 style = {{marginBottom: "33px"}}>
             {otpCard.heading}

@@ -49,6 +49,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
   min-height: 132px;
+  position: static;
+  top: 0;
   
 }
 
@@ -157,6 +159,7 @@ input::-webkit-inner-spin-button {
   background: white;
   margin-top: 76px;
   box-shadow: 0px 1px 5px;
+  position: relative;
 }
 .LoginInput{
   width: 85%;
@@ -182,11 +185,15 @@ input::-webkit-inner-spin-button {
   background: white;
   width: 100px;
   height: 100px;
-  top: 160px;
+  left: 35%;
+  top: -53px;
   border-radius: 50%;
   box-shadow: 0px 1px 4px;
   display: flex;
   justify-content: center;
+}
+@media only screen and (max-height:400px) {
+ 
 }
 .downloadButton{
       background: #282c34;

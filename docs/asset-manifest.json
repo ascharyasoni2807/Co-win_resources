@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Co-win_resources/static/css/main.1523e3c3.chunk.css",
-    "main.js": "/Co-win_resources/static/js/main.34671d3e.chunk.js",
-    "main.js.map": "/Co-win_resources/static/js/main.34671d3e.chunk.js.map",
+    "main.css": "/Co-win_resources/static/css/main.37e77f31.chunk.css",
+    "main.js": "/Co-win_resources/static/js/main.9c53a856.chunk.js",
+    "main.js.map": "/Co-win_resources/static/js/main.9c53a856.chunk.js.map",
     "runtime-main.js": "/Co-win_resources/static/js/runtime-main.2f5dac1a.js",
     "runtime-main.js.map": "/Co-win_resources/static/js/runtime-main.2f5dac1a.js.map",
     "static/js/2.138b4d0b.chunk.js": "/Co-win_resources/static/js/2.138b4d0b.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.4336f5f0.chunk.js": "/Co-win_resources/static/js/3.4336f5f0.chunk.js",
     "static/js/3.4336f5f0.chunk.js.map": "/Co-win_resources/static/js/3.4336f5f0.chunk.js.map",
     "index.html": "/Co-win_resources/index.html",
-    "static/css/main.1523e3c3.chunk.css.map": "/Co-win_resources/static/css/main.1523e3c3.chunk.css.map",
+    "static/css/main.37e77f31.chunk.css.map": "/Co-win_resources/static/css/main.37e77f31.chunk.css.map",
     "static/js/2.138b4d0b.chunk.js.LICENSE.txt": "/Co-win_resources/static/js/2.138b4d0b.chunk.js.LICENSE.txt",
     "static/media/—Pngtree—vector heart beat icon_3989757.5179586a.png": "/Co-win_resources/static/media/—Pngtree—vector heart beat icon_3989757.5179586a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2f5dac1a.js",
     "static/js/2.138b4d0b.chunk.js",
-    "static/css/main.1523e3c3.chunk.css",
-    "static/js/main.34671d3e.chunk.js"
+    "static/css/main.37e77f31.chunk.css",
+    "static/js/main.9c53a856.chunk.js"
   ]
 }
